@@ -21,3 +21,14 @@
     cursor: pointer;
     opacity: .5;
 }
+
+/* pull-right toggle-right-sidebar */
+.fixed-top {
+top: 40px !important;
+}
+.navbar .navbar-brand {
+color: #239F4F !important;
+}
+.navbar {
+    gap: 481px;
+}
