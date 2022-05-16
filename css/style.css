@@ -21,3 +21,78 @@
     cursor: pointer;
     opacity: .5;
 }
+
+/* CSS for <header id="site-header" class="fixed-top"> */
+.fixed-top {
+    background-color: aqua;
+    position: fixed;
+    top: 40px;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    font-size: 1.2em;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+
+}
+
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+    font-size: 34px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #189a46 !important;
+}
+
+.navbar-collapse {
+    justify-content: flex-end !important
+}
+
+.active a {
+    color: #189a46 !important;
+    color: #000c04;
+}
+
+.unline {
+    background-color: #189a46 !important;
+    width: 0% !important;
+    height: 1px !important;
+    transition: all 0.75s !important;
+}
+
+
+.nav-item {
+    transition: all 0.75s !important;
+
+
+}
+
+.nav-item:hover .nav-link {
+    color: #189a46 !important;
+
+}
+
+.nav-item:hover .unline {
+    width: 100% !important;
+}
+
+.unline-dropdown {
+    background-color: #189a46 !important;
+    width: 0% !important;
+    height: 1px !important;
+    transition: all 0.75s !important;
+}
+
+.dropdown-item {
+    width: fit-content;
+}
+
+.dropdown-item:hover .unline-dropdown {
+    width: 100% !important;
+}
+
+.dropdown-item:hover {
+    color: #189a46 !important;
+
+}
