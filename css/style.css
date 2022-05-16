@@ -28,7 +28,11 @@ top: 40px !important;
 }
 .navbar .navbar-brand {
 color: #239F4F !important;
+font-size: 30px !important;
+font-weight: 600 !important;
 }
-.navbar {
-    gap: 481px;
+.navbar-collapse {
+    flex-grow: 1 !important;
+    align-items: center !important;
+    flex-basis: 100% !important;
 }
