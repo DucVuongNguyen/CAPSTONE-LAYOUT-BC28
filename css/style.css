@@ -25,6 +25,8 @@
 /* pull-right toggle-right-sidebar */
 .fixed-top {
 top: 40px !important;
+right: 0 !important;
+left: 0 !important  ;
 }
 .navbar .navbar-brand {
 color: #239F4F !important;
@@ -35,4 +37,14 @@ font-weight: 600 !important;
     flex-grow: 1 !important;
     align-items: center !important;
     flex-basis: 100% !important;
+}
+.header-top {
+    background-color: #ffff;
+    display: grid;
+    align-items: center;
+    height: 100px;
+    transition: all 0.4s ease 0s;
+}
+.navbar .navbar-brand p {
+    margin: auto;
 }
