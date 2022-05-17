@@ -41,6 +41,7 @@
     color: #41414d;
     font-size: 12px;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .right-sidebar-btn:hover {
