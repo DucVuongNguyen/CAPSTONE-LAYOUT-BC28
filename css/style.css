@@ -22,6 +22,34 @@
     opacity: .5;
 }
 
+/* pull-right toggle-right-sidebar */
+.w3-sidebar{
+    position:fixed;
+    top:20px;
+    right: 30px;
+    display: block;
+    background-color: aqua;
+    flex-direction: column;
+    justify-items: auto;
+    z-index: 9999;
+    background-color: #0d1326;
+    padding: 20px 10px;
+}
+.w3-bar-item{
+    color: #e6ebff;
+    display: block;
+    opacity: .6;
+    text-align: center;
+    padding: 10px 0px;
+}
+.w3-display-container{
+    height: 50px;
+
+}
+.mySlides{
+    width: 100%;
+}
+
 /* header */
 .fixed-top {
 top: 40px !important;
