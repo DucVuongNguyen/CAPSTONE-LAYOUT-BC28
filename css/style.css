@@ -193,3 +193,98 @@
 .col_:hover {
     background: rgba(105, 105, 105, 0.3)
 }
+
+/* w3l-stats py-5 */
+
+.counter-div{
+    background-color: #239F4F;
+
+}
+.counter {
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.count-title {
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    color:#bfe3cc;
+}
+.count-number{
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+/* w3l-index5 */
+.about-title-1{
+    color: #f73626;
+    font-size: 18px;
+    font-weight: 400;
+}
+.about-title-2{
+    color: #000c04;
+    font-size: 40px;
+    font-weight: 600;
+}
+.about-content{
+    color: #696969;
+}
+.video img{
+    width: 100%;
+}
+.about-icon{
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    color: #239F4F;
+    background-color: white; 
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+/* w3l-bottom py-5 */
+
+
+.bottom-title{
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.bottom-content{
+    color: #696969;
+    
+
+}
+.d-flex{
+    justify-content: space-between;
+
+}
+.btn{
+    background-color: #239F4F;
+    border: #239F4F;
+    width: 15%;
+    
+}
+
+.btn:hover{
+    background-color: #189A46;
+
+}
+
+.form-control{
+    width: 80%;
+
+}
