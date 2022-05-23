@@ -26,8 +26,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
-
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
 </head>
 
@@ -97,93 +99,99 @@
     </nav>
   </header>
   <!-- header -->
-
   <!-- main-slider -->
 
-  <div id="carouselExampleCaptions" class=" main-slider carousel slide" data-ride="carousel" data-interval="2000">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active position-relative">
-        <img src="./image/banner1.jpg" class="d-block w-100 " alt="...">
-        <div
-          class="carousel-caption d-none d-md-block d-flex flex-column align-items-start justify-content-center position-absolut left-position">
-          <p class="text-left font-weight-bolder display-4">Quality Things for <br>Loving Pets</p>
-          <p class="text-left font-weight-bolder display-7">Keeps your Pet Smiling</p>
-          <div class="d-flex">
-            <div>
-              <button type="button" class="btn btn-primary btn-lg Read-More">Read More</button>
-            </div>
-            <div>
-              <button type="button" class="btn outline-light btn-lg ml-3 Contact-Us">Contact Us</button>
+  <section class="main-slider">
 
+    <div class="testimonial-content">
+      <!-- Swiper -->
+      <div class="swiper-container testimonial-comment">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./image/banner1.jpg" class="d-block w-100 banner" alt="...">
+            <div
+              class="carousel-caption d-none d-md-block d-flex flex-column align-items-start justify-content-center position-absolut left-position">
+              <p class="text-left font-weight-bolder display-4">Quality Things For <br>Loving Pets</p>
+              <p class="text-left display-7">Keeps Your Pet Smiling</p>
+              <div class="d-flex btn-div">
+                <div>
+                  <button type="button" class="btn btn-primary btn-lg Read-More">Read More</button>
+                </div>
+                <div>
+                  <button type="button" class="btn outline-light btn-lg ml-3 Contact-Us">Contact Us</button>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            <img src="./image/banner2.jpg" class="d-block w-100 banner" alt="...">
+            <div
+              class="carousel-caption d-none d-md-block d-flex flex-column align-items-start justify-content-center position-absolut center-position">
+              <p class="text-left font-weight-bolder display-4">Delivering Happiness<br>For Pets</p>
+              <p class="text-left display-7">For The Love Of Pets</p>
+              <div class="d-flex btn-div">
+                <div>
+                  <button type="button" class="btn btn-primary btn-lg Read-More">Read More</button>
+                </div>
+                <div>
+                  <button type="button" class="btn outline-light btn-lg ml-3 Contact-Us">Contact Us</button>
+
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="carousel-item position-relative">
-        <img src="./image/banner2.jpg" class="d-block w-100 " alt="...">
-        <div
-          class="carousel-caption d-none d-md-block d-flex flex-column align-items-start justify-content-center position-absolut center-position">
-          <p class="text-left font-weight-bolder display-4">Quality Things for <br>Loving Pets</p>
-          <p class="text-left font-weight-bolder display-7">Keeps your Pet Smiling</p>
-          <div class="d-flex">
-            <div>
-              <button type="button" class="btn btn-primary btn-lg Read-More">Read More</button>
-            </div>
-            <div>
-              <button type="button" class="btn outline-light btn-lg ml-3 Contact-Us">Contact Us</button>
 
-            </div>
-          </div>
-        </div>
-      </div>
+          <div class="swiper-slide">
+            <img src="./image/banner3.jpg" class="d-block w-100 banner" alt="...">
+            <div
+              class="carousel-caption d-none d-md-block d-flex flex-column align-items-start justify-content-center position-absolut left-position">
+              <p class="text-left font-weight-bolder display-4">Quality Things For <br>Loving Pets</p>
+              <p class="text-left display-7">Keeps Your Pet Smiling</p>
+              <div class="d-flex btn-div">
+                <div>
+                  <button type="button" class="btn btn-primary btn-lg Read-More">Read More</button>
+                </div>
+                <div>
+                  <button type="button" class="btn outline-light btn-lg ml-3 Contact-Us">Contact Us</button>
 
-      <div class="carousel-item position-relative">
-        <img src="./image/banner3.jpg" class="d-block w-100 " alt="...">
-        <div
-          class="carousel-caption d-none d-md-block d-flex flex-column align-items-start justify-content-center position-absolut left-position">
-          <p class="text-left font-weight-bolder display-4">Quality Things for <br>Loving Pets</p>
-          <p class="text-left font-weight-bolder display-7">Keeps your Pet Smiling</p>
-          <div class="d-flex">
-            <div>
-              <button type="button" class="btn btn-primary btn-lg Read-More">Read More</button>
-            </div>
-            <div>
-              <button type="button" class="btn outline-light btn-lg ml-3 Contact-Us">Contact Us</button>
-
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      <div class="carousel-item position-relative">
-        <img src="./image/banner4.jpg" class="d-block w-100 " alt="...">
-        <div
-          class="carousel-caption d-none d-md-block d-flex flex-column align-items-start justify-content-center position-absolut center-position">
-          <p class="text-left font-weight-bolder display-4">Quality Things for <br>Loving Pets</p>
-          <p class="text-left font-weight-bolder display-7">Keeps your Pet Smiling</p>
-          <div class="d-flex">
-            <div>
-              <button type="button" class="btn btn-primary btn-lg Read-More">Read More</button>
-            </div>
-            <div>
-              <button type="button" class="btn outline-light btn-lg ml-3 Contact-Us">Contact Us</button>
+          <div class="swiper-slide">
+            <img src="./image/banner4.jpg" class="d-block w-100 banner" alt="...">
+            <div
+              class="carousel-caption d-none d-md-block d-flex flex-column align-items-start justify-content-center position-absolut center-position">
+              <p class="text-left font-weight-bolder display-4">Delivering Happiness<br>For Pets</p>
+              <p class="text-left display-7">We help your Projects</p>
+              <div class="d-flex btn-div">
+                <div>
+                  <button type="button" class="btn btn-primary btn-lg Read-More">Read More</button>
+                </div>
+                <div>
+                  <button type="button" class="btn outline-light btn-lg ml-3 Contact-Us">Contact Us</button>
 
+                </div>
+              </div>
             </div>
           </div>
+
         </div>
       </div>
 
+    </div>
+    <div class="swiper-pagination">
+
+    </div>
 
 
     </div>
-  </div>
-  <!-- main slider -->
+
+  </section>
+
 
   <!-- w3l-grids-3 py-5 id:"about" -->
   <section class="w3l-grids-3 py-5">
@@ -257,9 +265,6 @@
 
   </section>
 
-  <!-- w3l-features py-5 -->
-
-  <!-- w3-services1 -->
   <section class="w3l-services1">
     <div class="py-5">
       <div class="container py-md-5 py-3">
@@ -303,7 +308,6 @@
       </div>
     </div>
   </section>
-
 
 
   <!-- w3l-stats py-5 -->
@@ -477,8 +481,9 @@
     <div class="container">
       <p class="text-center font-weight-bolder bottom-title">Stay Updated!</p>
       <p class="text-center  bottom-content">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-        cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
-      <form action="#" method="post" class="subscribe-wthree">
+        cubilia<br>Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit<br>amet mattis quam.
+      </p>
+      <form action="#" method="post" class="subscribe-wthree form">
         <div class="d-flex subscribe-wthree-field sub-box">
           <input class="form-control" type="email" placeholder="Enter your email..." name="email" required="">
           <button class="btn btn-style btn-primary btn-sub" type="submit">Subscribe</button>
@@ -602,6 +607,8 @@
       <div class="footer-of-footer"></div>
     </div>
   </section>
+  <!-- ----------------- -->
+
 
 
   <!-- Optional JavaScript -->
@@ -621,6 +628,9 @@
   <!-- counter.js -->
   <script src="./js/counter.js"></script>
   <!-- counter.js -->
+  <!-- Initialize Swiper -->
+  <script src="./js/Swiper.js"></script>
+
 
 
 </body>
