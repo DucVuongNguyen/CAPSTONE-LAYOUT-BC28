@@ -268,18 +268,18 @@
     
 
 }
-.d-flex{
+.sub-box{
     justify-content: space-between;
 
 }
-.btn{
+.btn-sub{
     background-color: #239F4F;
     border: #239F4F;
     width: 15%;
     
 }
 
-.btn:hover{
+.btn-sub:hover{
     background-color: #189A46;
 
 }
