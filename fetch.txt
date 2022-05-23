@@ -1,0 +1,12 @@
+1. git fetch origin : thống kê các file có trên server git, file ở máy tính gọi là file local
+link repository github
+2. git branch -r : xem các branch trên server git
+ vd: các branch của server git có tiền tố origin/... phía trước để phân biệt với branch cùng tên ở local
+origin/DylanNguyen
+  origin/HEAD -> origin/master
+  origin/gop
+  origin/master
+  origin/test
+  origin/vuong
+3. git checkout <local branch> : trở về nhánh cần làm việc
+4. git merge origin/master : gộp nhánh origin/master (nhánh master ở server git) với nhánh đang đứng <local branch>
