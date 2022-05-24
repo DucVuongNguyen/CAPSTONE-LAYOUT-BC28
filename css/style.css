@@ -1,10 +1,12 @@
 body {
-  overflow-x:hidden;
+  overflow-x: hidden;
+  position: relative;
 }
+
 /* toggle-right-sidebar */
 .pull-right {
   float: right;
-  position: fixed;
+  position: fixed !important;
   right: 0px;
   top: 70px;
   width: 90px;
@@ -12,7 +14,7 @@ body {
   text-align: center;
 }
 
-.toggle-right-sidebar span i {
+.toggle-right span i {
   background: #0D1326;
   width: 50px;
   height: 50px;
@@ -22,16 +24,16 @@ body {
   border-radius: 50px;
   font-size: 26px;
   cursor: pointer;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 /* pull-right toggle-right-sidebar */
 
 .toggle-right-sidebar {
-  position: fixed;
+  position: fixed !important;
   right: 0px;
   top: 140px;
-  z-index: 99999;
+  z-index: 99999 !important;
   text-align: center;
   background-color: #0d1326;
   width: fit-content;
@@ -88,16 +90,50 @@ body {
 
 
 /* main-slider */
+.left-position {
+  top: 10%;
+  left: 20%;
+}
+
+.center-position {
+  top: 10%;
+  left: 43% !important;
+}
+
 .banner {
   filter: brightness(50%);
 
 }
 
-.display-4 {
+.text-title {
   font-size: 60px;
-  padding-bottom: 0px;
+  font-weight: 700;
+  text-align: left;
+
 }
 
+.text-content {
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 50px;
+
+}
+
+.Read-More {
+  background-color: white;
+  color: #189a46;
+  border: solid white;
+  font-size: 13px;
+  padding: 10px 30px;
+  margin-right: 20px;
+}
+
+.Read-More:hover {
+  background-color: white;
+  color: #189a46;
+  border: solid white;
+
+}
 
 .Contact-Us {
   border: solid white;
@@ -115,66 +151,16 @@ body {
 
 }
 
-.Read-More {
-  background-color: white;
-  color: #189a46;
-  border: solid white;
-  font-size: 13px;
-  padding: 10px 30px;
-}
-
-.Read-More:hover {
-  background-color: white;
-  color: #189a46;
-  border: solid white;
-
-}
-
-.left-position {
-  top: 30%;
-  left: 20%;
-}
-
-.center-position {
-  top: 30%;
-  left: 43%;
-}
-
 .carousel-indicators li {
-  width: 8px;
-  height: 8px;
-  border-radius: 100%;
   margin: 0px 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
 }
 
-.carousel-indicators li.active {
-  width: 30px;
-  height: 8px;
-  border-radius: 20px;
+.carousel-indicators .active {
   background-color: #189a46;
-
-
 }
-
-.btn-div {
-  padding: 20px 0px;
-}
-
-.testimonial-comment {
-  height: fit-content;
-}
-
-.swiper-pagination {
-
-  position: absolute !important;
-  left: 50%;
-}
-
-.swiper-pagination-bullet-active {
-  background-color: #189a46 !important;
-}
-
-
 
 /* main-slider */
 
