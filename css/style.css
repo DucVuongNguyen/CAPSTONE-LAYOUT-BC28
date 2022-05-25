@@ -5,7 +5,7 @@
   right: 0px;
   top: 70px;
   width: 90px;
-  z-index: 99999;
+  /* z-index: ; */
   text-align: center;
 }
 
@@ -317,6 +317,14 @@
 .w3l-pricing-7-top {
   text-align: center;
 }
+.w3l-pricing-7-main h6 {
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+}
 .w3l-pricing-7-main h4 {
   font-size: 40px;
   line-height: 45px;
@@ -358,9 +366,14 @@
   align-self: center;
   padding-top: 6px;
 }
+.w3l-pricing-7-bottom-bottom ul {
+  padding-left: 1px;
+  padding-bottom: 2px;
+}
 .buy-button {
   margin-top: 2em;
   color: #239f4f;
+  padding-bottom: 50px;
 }
 .btn-style {
   padding: 12px 35px;
@@ -369,13 +382,59 @@
   text-transform: capitalize;
   font-weight: 400;
   transition: 0.3s ease-in;
-  border-radius: var(--border-radius);
+  border-radius: 10px;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #239f4f;
+  border-color: #239f4f;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #116E32;
-  border-color: #116E32;
+  background-color: #116e32;
+  border-color: #116e32;
 }
+.pricing-gd-left.pric-7.active .w3l-pricing-7-top {
+  padding: 3em 2.5em 0.5em;
+  background-color: #239f4f;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.w3l-pricing-7-main h5 {
+  font-size: 15px;
+  line-height: 20px;
+  color: #239f4f;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: 700;
+  display: inline-block;
+  padding: 8px 20px;
+  background: #fff;
+  border-radius: 10px;
+}
+.w3l-pricing-7-main .pricing-gd-left.active h6, .w3l-pricing-7-main .pricing-gd-left.active h4 {
+  color: #fff;
+}
+.pricing-gd-left.pric-7-2.pricing-7-top.buy-button {
+  padding-bottom: 44px;
+  padding-top: 13px;
+}
+
+/* .w3l-pricing-7-main h6{
+  color: #fff;
+} */
+/* .w3l-pricing-7-main h4 {
+  color: #fff;
+} */
+/* .pricing-gd-left.w3l-pricing-7-top h6 {
+  color: #fff;
+}
+.pricing-gd-left.w3l-pricing-7-top h4 {
+  color: #fff;
+} */
+
+
 
 /* main-social-footer */
 .background-color {
@@ -416,4 +475,12 @@
 }
 .item-right {
   margin-left: 125px;
+}
+.w3l-footer .footer-list-28 ul li, .w3l-footer .midd-footer-28:nth-child(1) .footer-list-28 ul li:last-child {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.main-social-footer-28.social-icons {
+  color: #239f4f;
 }
