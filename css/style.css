@@ -230,7 +230,12 @@
   padding-bottom: 3rem !important;
 }
 .container {
-  max-width: 1200px;
+  /* max-width: 1200px; */
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .row {
   display: flex;
@@ -413,7 +418,8 @@
   background: #fff;
   border-radius: 10px;
 }
-.w3l-pricing-7-main .pricing-gd-left.active h6, .w3l-pricing-7-main .pricing-gd-left.active h4 {
+.w3l-pricing-7-main .pricing-gd-left.active h6,
+.w3l-pricing-7-main .pricing-gd-left.active h4 {
   color: #fff;
 }
 .pricing-gd-left.pric-7-2.pricing-7-top.buy-button {
@@ -434,53 +440,59 @@
   color: #fff;
 } */
 
-
-
 /* main-social-footer */
-.background-color {
-  background-color: antiquewhite;
+.footer-28 {
+  background-color: #111;
 }
-.container {
-  max-width: 1140px;
-  margin-right: auto;
-  margin-left: auto;
-}
-.item-left-header {
-  text-align: left;
-}
-.social-icon {
-  display: flex;
-  gap: 25px;
-  list-style: none;
-}
-.row-footer {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 -15px;
-}
-.row-item {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-}
-.footer-title-28 {
-  text-align: center;
-}
-.row-item ul li {
-  list-style: none;
-}
-.row-item .mt-5 {
-  margin-top: 3rem;
-}
-.item-right {
-  margin-left: 125px;
+.w3l-footer h6.footer-title-28 {
+  color: #fff;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 600;
+  margin-bottom: 25px;
 }
 .w3l-footer .footer-list-28 ul li, .w3l-footer .midd-footer-28:nth-child(1) .footer-list-28 ul li:last-child {
   list-style: none;
   margin-bottom: 5px;
 }
+.footer-list-28 {
+  padding-left: 0;
+}
+.w3l-footer .footer-list-28 ul li a, .w3l-footer .footer-list-28 ul li p {
+  font-weight: normal;
+  font-size: 16px;
+  color: #696969;
+  line-height: 28px;
+}
+.w3l-footer .footer-list-28 ul li a:hover {
+  text-decoration: underline;
+  color: #fff;
+  
+}
+.social-icons {
+  display: flex;
+  
+}
+.social-icons li a {
+  
+  padding-left: 0;
+}
+.social-icons li{
+  padding-right: 20px;
+}
+.w3l-footer .midd-footer-28 {
+  background: #111;
+  border-top: 1px solid rgba(103, 99, 99, 0.14);
+}
 
-.main-social-footer-28.social-icons {
-  color: #239f4f;
+.w3l-footer .copy-footer-28 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #696969;
+  margin-bottom: 0;
+}
+.w3l-footer .copy-footer-28 a {
+  color: #f13525;
+  opacity: 0.9;
 }
